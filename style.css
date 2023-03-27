@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo:wght@300;400;800;900&family=Bungee&family=Montserrat:wght@300;400;600&family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 500px;
+}
+
+:root {
+    --margin-block: 50px;
+    --text-center: center;
+    --padding-inline-section: 20px;
+}
+
+h1 {
+    font-family: 'Bungee', cursive;
+    transition: 0.6s ease-in-out;
+
+}
+
+p {
+    align-self: center;
+}
+
+h1:hover {
+    color: #9a8c98;
+    transition-duration: 2s;
+
+}
+
+
+.flex {
+    display: flex;
+    gap: 50px;
+}
+
+.dp_logo {
+    width: 150px;
+}
+
+.dp_header {
+    padding: 15px 30px;
+    text-align: center;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 1.9rem;
+    color: #4d4d5b;
+    font-family: 'Bungee', cursive;
+
+}
+
+.dp_navbar {
+    margin-left: auto;
+    font-size: 1.3rem;
+    color: #4d4d5b;
+    cursor: pointer;
+    gap: 30px;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.dp_navbar p {
+    font-family: 'Bungee', cursive;
+    margin-right: 20px;
+    transition: 1s ease-out;
+
+}
+
+.dp_navbar p:hover {
+    color: black;
+    transform: translateY(-8px);
+    transition-duration: 2s;
+}
+
+.box {
+    background-color: #EFEBE5;
+    box-shadow: 10px 0px 15px #EFEBE5;
+}
+
+/* main body */
+
+.main_heading {
+    margin: var(--padding-left-right);
+    text-align: center;
+    margin-block: var(--margin-block);
+    font-size: 6rem;
+    margin-bottom: 20px;
+    color: #4d4d5b;
+    font-family: 'Rubik Mono One', sans-serif;
+    background-image: url(world.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px ;
+
+
+}
+
+.main_container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+
+}
+
+.content_heading h2 {
+    text-align: center;
+    margin-block: 60px;
+    font-size: 3rem;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #4a4a69;
+    background-color: rgb(192, 199, 206);
+
+}
+
+section {
+    font-size: larger;
+}
+
+.world_img img {
+    margin-left: 28%;
+    width: 550px;
+    height: 400px;
+}
+
+.content_body {
+    margin-block: 50px;
+}
+
+.content_subheading {
+    /*     max-width: 40vw;
+ */
+    margin-top: 150px;
+
+}
