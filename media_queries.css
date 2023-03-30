@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:475px) {
     .dp_logo {
         width: 250px;
         margin-left: 25%;
@@ -123,39 +123,3 @@
     }
 }
 
-@media screen and (max-width:350px){
-    .dp_logo {
-        width: 300px;
-        position: relative;
-        right: 18%;
-    }
-
-    .dp_navbar {
-        font-size: 1rem;
-
-    }
-
-    .main_heading {
-        font-size: 3.5rem;
-    }
-
-    .content_body_img {
-        width: 450px;
-    }
-
-    #globe_img {
-        width: 350px;
-        height: 300px;
-        margin-left: 80px;
-    }
-
-    .content_subheading {
-        margin-top: -10px;
-    }
-
-    .traffic_1st {
-        margin-top: -10px;
-
-    }
-    
-}
