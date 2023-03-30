@@ -1,0 +1,161 @@
+
+
+@media screen and (max-width:768px) {
+    .dp_logo {
+        width: 100px;
+        width: 30%;
+        height: 20%;
+        /*         margin-top: 10%;
+ */
+        margin-left: 35%;
+    }
+
+    .box {
+
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .dp_navbar {
+        padding-right: 20px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .st_body {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .st_body img {
+        margin-left: 15%;
+    }
+
+    .world_img img {
+
+        margin-left: 10%;
+
+    }
+
+    .content_body1 {
+        flex-direction: column;
+    }
+
+    .content_body2 {
+        flex-direction: column-reverse;
+    }
+
+    .content_body_img {
+        margin-left: 20%;
+    }
+
+
+}
+
+@media screen and (max-width:350px) {
+    .dp_logo {
+        width: 250px;
+        margin-left: 25%;
+    }
+
+    .dp_navbar {
+
+        flex-wrap: wrap;
+        font-size: 0.95rem;
+        margin-left: 1px;
+        gap: 0;
+    }
+
+    .dp_navbar p {
+        margin-left: 30px;
+    }
+
+    .main_heading {
+        font-size: 4rem;
+    }
+
+    .content_body_img {
+        position: relative;
+        left: -90px;
+        width: 500px;
+        margin-right: 30px;
+    }
+
+    .content_body1,
+    .content_body2 {
+        gap: 0;
+    }
+
+}
+
+@media screen and (min-width:350px) and (max-width:470px){
+    .dp_logo {
+        width: 200px;
+        margin-right: 50px;
+    }
+
+    .dp_navbar {
+        font-size: 1rem;
+
+    }
+
+    .main_heading {
+        font-size: 3.5rem;
+    }
+
+    .content_body_img {
+        width: 450px;
+    }
+
+    #globe_img {
+        width: 350px;
+        height: 300px;
+        margin-left: 80px;
+    }
+
+    .content_subheading {
+        margin-top: -10px;
+    }
+
+    .traffic_1st {
+        margin-top: -10px;
+
+    }
+}
+
+@media screen and (max-width:350px){
+    .dp_logo {
+        width: 300px;
+        position: relative;
+        right: 18%;
+    }
+
+    .dp_navbar {
+        font-size: 1rem;
+
+    }
+
+    .main_heading {
+        font-size: 3.5rem;
+    }
+
+    .content_body_img {
+        width: 450px;
+    }
+
+    #globe_img {
+        width: 350px;
+        height: 300px;
+        margin-left: 80px;
+    }
+
+    .content_subheading {
+        margin-top: -10px;
+    }
+
+    .traffic_1st {
+        margin-top: -10px;
+
+    }
+    
+}

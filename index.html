@@ -8,39 +8,45 @@
     <title>Digital Pixal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon_io (2)/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="media_queries.css">
 </head>
 
-<body style="height:100vh ;">
-    <header>
-        <div class="container">
-            <div class="box flex">
-                <img class="dp_logo " src="digital pixal.png" alt="digital Pixal logo">
-                <p class="dp_header">Buisness Consultants</p>
-                <div class="dp_navbar flex">
-                    <p>Courses</p>
-                    <p>Contact Us</p>
-                    <a class="dp_navbar" href="#products">
-                        <p>Services</p>
-                    </a>
-                    <a class="dp_navbar" href="#aboutus">
-                        <p>About Us</p>
+<body>
+    <div class="overflow">
+        <header>
+            <div class="container">
+                <div class="box flex">
+                    <img class="dp_logo " src="digital pixal.png" alt="digital Pixal logo">
+                    <p class="dp_header">Buisness Consultants</p>
+                    <div class="dp_navbar  flex">
+                        <p>Courses</p>
+                        <p>Contact Us</p>
+                        <a class="dp_navbar" href="#products">
+                            <p>Services</p>
+                        </a>
+                        <a class="dp_navbar" href="#aboutus">
+                            <p>About Us</p>
+                        </a>
+
+
+                    </div>
                     </a>
 
                 </div>
-
             </div>
-        </div>
-    </header>
+        </header>
+    </div>
+
     <main>
-        <div class="main_container ">
+        <div class="main_container overflow">
 
             <h1 class="main_heading ">Welcome to Digital Pixal</h1>
             <section class="about_us">
                 <div class="content_heading">
                     <br id="aboutus">
                     <h2>Who are we?</h2>
-                    <div class="1st_body flex">
-                        <img src="growth (2).png" alt="growth">
+                    <div class="st_body flex">
+                        <img class="content_body_img" src="growth (2).png" alt="growth">
 
                         <div class="content_body  ">
                             <p>Welcome to Digital Pixal, the leading business consultant agency that is dedicated to
@@ -70,8 +76,9 @@
                     </div>
 
                     <div class="world_img">
-                        <img src="globe-3.png" alt="world">
-                        <p class="traffic_1st"> Our <strong>mission </strong> is to help businesses succeed in the digital age by providing
+                        <img class="content_body_img" id="globe_img" src="globe-3.png" alt="world">
+                        <p class="traffic_1st"> Our <strong>mission </strong> is to help businesses succeed in the
+                            digital age by providing
                             innovative and effective solutions for their online presence. We believe that every business
                             deserves a strong online presence that accurately represents their brand and helps them
                             achieve their goals.
@@ -90,9 +97,9 @@
             <section class="service_section">
                 <div class="content_heading">
                     <br id="products">
-                    <h2>Services we offer</h2>
+                    <h2 >Services we offer</h2>
                     <div class="content_body">
-                        <div class="flex">
+                        <div class="content_body1 flex">
                             <div>
                                 <p class="content_subheading">
                                 <h3>Digital Marketing Services:</h3> We offer a range of digital
@@ -101,11 +108,11 @@
                                 development. This helps our clients improve their online presence and reach their target
                                 audience effectively.</p>
                             </div>
-                            <div><img style="width: 400px;" src="digital_marketing.png" alt=""></div>
+                            <div><img class="content_body_img" style="width: 400px;" src="digital_marketing.png" alt=""></div>
                         </div>
 
-                        <div class="flex">
-                            <div><img style="width: 400px;" src="supply chain.png" alt=""></div>
+                        <div class=" content_body2 flex">
+                            <div><img class="content_body_img" style="width: 400px;" src="supply chain.png" alt=""></div>
                             <div>
                                 <p class="content_subheading">
                                 <h3>Website Creation</h3>
@@ -121,7 +128,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="flex">
+                        <div class="content_body1 flex">
                             <div>
                                 <p class="content_subheading">
                                 <h3>Business Strategy Development: </h3>We can help our clients
@@ -131,12 +138,12 @@
                                 opportunities and challenges, and developing a roadmap for success.</p>
                             </div>
                             <div>
-                                <img style="width: 400px;" src="buisness dev.png" alt="">
+                                <img class="content_body_img" style="width: 400px;" src="buisness dev.png" alt="">
                             </div>
 
                         </div>
-                        <div class="flex">
-                            <div> <img style="width: 400px;" src="marketing.png" alt="">
+                        <div class=" content_body2 flex">
+                            <div> <img class="content_body_img" style="width: 400px;" src="marketing.png" alt="">
                             </div>
                             <div>
 
@@ -153,7 +160,7 @@
 
                             </p>
                         </div>
-                        <div class="flex">
+                        <div class=" content_body1 flex">
                             <div>
                                 <p class="content_subheading">
                                 <h3>Quality Traffic:</h3> When you choose Digital Pixal, we focus on driving
@@ -161,7 +168,7 @@
                                 marketing, and social media management. Our team of experts has years of experience in
                                 optimizing websites to attract relevant traffic that is more likely to convert.</p>
                             </div>
-                            <div><img style="width: 400px;" src="finance.png" alt=""></div>
+                            <div><img class="content_body_img" style="width: 400px;" src="finance.png" alt=""></div>
 
                         </div>
                         <br>
@@ -238,6 +245,7 @@
 
 
     <footer></footer>
+    <script src="https://kit.fontawesome.com/bd8d929eb5.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

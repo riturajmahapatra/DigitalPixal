@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: "Archivo", Geneva, Tahoma, sans-serif;
 }
-
+.overflow{
+    overflow: hidden;
+}
 img {
     width: 500px;
 }
@@ -51,6 +53,7 @@ h1:hover {
     font-size: 1.9rem;
     color: #4d4d5b;
     font-family: 'Bungee', cursive;
+    
 
 }
 
@@ -62,6 +65,8 @@ h1:hover {
     gap: 30px;
     text-decoration: none;
     align-items: center;
+    flex-wrap: wrap;
+
 
 }
 
@@ -69,6 +74,7 @@ h1:hover {
     font-family: 'Bungee', cursive;
     margin-right: 20px;
     transition: 1s ease-out;
+    overflow:visible;
 
 }
 
@@ -83,6 +89,9 @@ h1:hover {
     box-shadow: 10px 0px 15px #EFEBE5;
 }
 
+.nav_toggle{
+    display: none;
+}
 /* main body */
 
 .main_heading {
@@ -93,10 +102,10 @@ h1:hover {
     margin-bottom: 20px;
     color: #4d4d5b;
     font-family: 'Rubik Mono One', sans-serif;
-    background-image: url(world.png) ;
+    background-image: url(world.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 400px ;
+    background-size: 400px;
 
 
 }
@@ -105,7 +114,6 @@ h1:hover {
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
-    overflow: hidden;
 
 }
 
@@ -139,14 +147,13 @@ section {
     margin-top: 150px;
 
 }
-.content_subheading p{
-}
-.traffic_1st{
+
+.traffic_1st {
     text-align: center;
     margin-block: 30px;
     font-size: 1.5rem;
 }
-.traffic_content p{
-margin-top: 20px;
-}
 
+.traffic_content p {
+    margin-top: 20px;
+}
