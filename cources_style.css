@@ -1,3 +1,66 @@
-h2{
-    text-transform: uppercase;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo:wght@300;400;800;900&family=Bungee&family=Montserrat:wght@300;400;600&family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", Geneva, Tahoma, sans-serif;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+:root {
+    --margin-block: 50px;
+    --text-center: center;
+    --padding-inline-section: 20px;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+
+}
+
+p {
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+    margin-block: 30px;
+    font-size: 3rem;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #4a4a69;
+    background-color: rgb(192, 199, 206);
+}
+
+
+/* main setup ends here  */
+
+.web_dev,
+.seo,
+.smm,
+.ppc,
+.email,
+.cntnt {
+    margin: var(--margin-block);
+
+}
+.cource_heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.container p{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+li{
+    font-size: 1.1rem;
+    
 }

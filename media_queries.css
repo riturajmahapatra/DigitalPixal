@@ -53,9 +53,11 @@
 }
 
 @media screen and (max-width:475px) {
+    
     .dp_logo {
-        width: 250px;
-        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .dp_navbar {
@@ -90,8 +92,12 @@
 
 @media screen and (min-width:350px) and (max-width:470px){
     .dp_logo {
-        width: 200px;
-        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dp_header{
+        font-size: 1.3rem;
     }
 
     .dp_navbar {
